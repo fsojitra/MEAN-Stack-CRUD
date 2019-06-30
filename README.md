@@ -39,5 +39,5 @@ http://localhost:4200/user/create
 ### To edit and delete user
 http://localhost:4200/user
 
-### And lastly taylor swift's mean song gif for no good reason :blush:
+#### And lastly taylor swift's mean song gif, which BTW nothing to do with this code but why not just randomly put it there for no good reason :blush:
 ![tSwift](https://media.giphy.com/media/VH1f6PQ4J6HYI/giphy.gif)
