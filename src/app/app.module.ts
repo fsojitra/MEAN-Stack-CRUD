@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { AddComponent } from './add/add.component';
 import { GetComponent } from './get/get.component';
 import { EditComponent } from './edit/edit.component';
+import { NotFound4o4Component } from './not-found4o4/not-found4o4.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddComponent,
     GetComponent,
-    EditComponent
+    EditComponent,
+    NotFound4o4Component
   ],
   imports: [
     BrowserModule,
