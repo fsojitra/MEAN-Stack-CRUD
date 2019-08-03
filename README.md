@@ -29,7 +29,7 @@ to run node server
 1. `cd MEAN-Stack/backend`
 2. `nodemon app.js`
 
-to run angular frintend
+to run angular frontend
 1. `cd MEAN-Stack`
 2. `ng serve -o`
 
