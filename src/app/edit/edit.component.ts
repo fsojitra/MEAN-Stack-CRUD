@@ -37,8 +37,10 @@ export class EditComponent implements OnInit {
 			this.us.updateUser(params['id'], this.angForm.value).subscribe(res => {
 				this.response = res;
 				if (this.response.status == 'success'){
+					this.us.alert('User updated successfully!','success');
 					this.router.navigate(['user']);
 				} else {
+					this.us.alert('Error updating user!','error');
 				}
 			});
 		});

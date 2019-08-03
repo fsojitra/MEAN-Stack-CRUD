@@ -29,7 +29,7 @@ to run node server
 1. `cd MEAN-Stack/backend`
 2. `nodemon app.js`
 
-to run angular frintend
+to run angular frontend
 1. `cd MEAN-Stack`
 2. `ng serve -o`
 
@@ -39,5 +39,5 @@ http://localhost:4200/user/create
 ### To edit and delete user
 http://localhost:4200/user
 
-#### And lastly taylor swift's mean song gif, which BTW nothing to do with this code but why not just randomly put it there for no good reason :blush:
+#### And lastly taylor swift's mean song gif, which BTW has nothing to do with this code but why not just randomly put it there for no good reason :blush:
 ![tSwift](https://media.giphy.com/media/VH1f6PQ4J6HYI/giphy.gif)
