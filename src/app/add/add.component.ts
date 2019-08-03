@@ -25,8 +25,10 @@ export class AddComponent implements OnInit {
     this.us.addUser(this.angForm.value).subscribe(res => {
       this.response = res;
       if (this.response.status == 'success'){
+        this.us.alert('User added successfully!','success');
         this.angForm.reset();
       } else {
+        this.us.alert('Error saving user!','error');
       }
     })
   }

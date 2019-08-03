@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import swal from 'sweetalert2';
 
 @Injectable({
 	providedIn: 'root'
@@ -27,5 +28,9 @@ export class UserService {
 
 	deleteUser(id) {
 		return this.http.get(this.url+'/delete/'+id);
+	}
+
+	alert(mssg, status) {
+		swal.fire(mssg, "", status);
 	}
 }

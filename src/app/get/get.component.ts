@@ -31,8 +31,10 @@ export class GetComponent implements OnInit {
 		this.us.deleteUser(id).subscribe(res => {
 			this.responseDelete = res;
 			if (this.responseDelete.status == 'success'){
+				this.us.alert('User deleted successfully!','success');
 				this.getUsers();
 			} else {
+				this.us.alert('Error deleting user!','error');
 			}
 		});
 	}
