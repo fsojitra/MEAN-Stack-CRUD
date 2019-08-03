@@ -7,7 +7,7 @@ import { NotFound4o4Component } from './not-found4o4/not-found4o4.component';
 
 const routes: Routes = [{
   path: '',
-  component: GetComponent
+  component: AddComponent
 },
 {
   path: 'user/create',
