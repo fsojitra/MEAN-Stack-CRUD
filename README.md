@@ -15,7 +15,7 @@ Below listed things you need to have in your system to run this code
 ### To Setup
 Clone or download this repository
 
-1. `cd MEAN-Stack`
+1. `cd MEAN-Stack-CRUD`
 2. `npm install`
 3. `cd MEAN-Stack/backend`
 4. `npm install`
